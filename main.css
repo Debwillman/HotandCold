@@ -1,0 +1,72 @@
+/*This is the coding for my Hot or Cold game*/
+body {
+	background-color: #E6E6FA;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+/*This decorates my label Huckle Buckle Beanstalk*/
+.label1 span {
+	margin-top: 20px;
+	font-size: 100px;
+	color: #483D8B;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	margin-left: 150px;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+/*This decorates my wording in my input box*/
+h2 {
+	font-size: 35px;
+	color: #483D8B;
+	text-align: center;
+	margin-top: 30px;
+}
+/*Decorates Enter your guess Blow*/
+h3 {
+	font-size: 25px;
+	color: #483D8B;
+	text-align: center;
+	margin-top: 35px;
+}
+/*This decorates my input box*/
+#guess {
+	text-align: center;
+	margin-left: 575px;
+	width: 200px;
+	margin-top: 20px;
+}
+/*This centers my buttons*/
+.button-align {
+	text-align: center;
+}
+/*This decorates my Submit button*/
+#Submit {
+	width: 90px;
+	color: #fff;
+	font-size: 15px;
+	background: #483D8B;
+	border-radius: 3px;
+	border: none;
+	margin-top: 15px;
+}
+/*This decorates my NewGame button*/
+#NewGame {
+	width: 90px;
+	color: #fff;
+	font-size: 15px;
+	background: #483D8B;
+	border-radius: 3px;
+	border: none;
+	margin-top: 15px;
+}
+/*This decorates my Winner wording*/
+#winner {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 50px;
+	color: #483D8B
+}
+/*This hides my Winner wording until user wins*/
+.bottom {
+	display: none;
+}

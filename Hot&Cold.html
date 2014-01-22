@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--This is the title-->
+<title>Hot or Cold?</title>
+<!--This is my link to my reset css-->
+<link rel="stylesheet" type="text/css" href="main.reset.css"/>
+<!--This is my link to my main css-->
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<!--This is my link to Jquery libraries-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--This is my link to Application JS-->
+<script type="text/javascript" src="application.js"></script>
+</head>
+<body>
+<!--This wraps around my whole game-->
+<div class = "wrapper">
+<!--This is my header section at the top-->
+	<div>
+		<h1 class="label1"><span>Huckle Buckle Beanstalk</span></h1>
+		<h2>I have selected a number between 1 and 100.</h2>
+		<h3>Enter you guess below.</h3>
+	<!--This is my input box-->
+		<input type="text" value="" name="guess" id="guess" maxlength="3" placeholder="Enter a number from 1 to 100">
+<!--This is my buttons-->
+	</div>
+	<div class="button-align">
+	<form action id="gameForm">
+	<button name="Button" id="Submit" class="button">Submit</button>
+	<button name="NewGame" id="NewGame" class="button">New Game!</button>
+	</form>
+	</div>
+<!--This is my title when the user wins a game-->
+	<div class = "bottom" id="winner">
+		<p><span>Correct guess you won!</span></p>
+	</div>
+</div>
+</body>
+</html>
